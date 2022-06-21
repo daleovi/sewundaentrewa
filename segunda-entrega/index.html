@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Listeat!</title>
+</head>
+
+<body>
+    <!--========================================================== -->
+    <!-- ENCABEZADO -->
+    <!--========================================================== -->
+    <header class="container-fluid bg-warning d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6">¡Suscríbete y forma parte de la mejor comunidad de compras!</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light p-3" id="menu">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo-green.png" class="d-block w-100" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="./como-funciona.html">Cómo funciona</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./descarga-la-app.html">Descarga la app</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="./listas-recetas">Listas+recetas</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="email" placeholder="Correo Electronico"
+                        aria-label="Suscribete">
+                                        <button type="button" class="btn btn-outline-warning">Suscríbete</button>
+                </form>
+            </div>
+
+        </div>
+    </nav>
+
+<!-- Carrusel/Slider de imágenes -->
+
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="./img/slide1.jpg" class="d-block w-100" alt="">
+            </div>
+
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./img/slide2.jpg" class="d-block w-100" alt="...">
+            </div>
+
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./img/slide3.jpg" class="d-block w-100" alt="...">
+            </div>
+
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+<!-- Introducción -->
+   
+
+    <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto"
+        id="intro">
+        <h3 class="p-3 fs-2 border-top border-3">Ir al supermercado es la actividad esencial del jóven
+            independiente,<span class="text-primary">
+                <br><br>
+            </span>Sin embargo, la falta de tiempo, la inexperiencia, o la incertidumbre de qué realmente
+            necesito</span></h3>
+        <p class="p-3  fs-4">
+            <span class="text-primary">Listeat!</span> es la comunidad de expertos en listas y recetas que se adecúan a
+            tu estilo de vida y a tu presupuesto.
+        </p>
+    </section>
+
+   <!-- Beneficios -->
+
+
+    <section class="w-100">
+        <div class="row w-75 mx-auto" id="servicios-fila-1">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="./img/desarrollo.png" alt="desarrollo" width="180" height="160">
+
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Tu lista ideal</h3>
+                    <p class="px-5"> Tu lista ideal. Explora, crea, edita y comparte listas sobre
+                        categorías específicas</p>
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+                <img src="./img/concepto.png" alt="concepto" width="180" height="160">
+
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Encuentra tus
+                        productos rápido y sin
+                        vueltas</h3>
+                    <p class="px-4"> Guíate por la ruta para tomar los productos de tu lista</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row w-75 mx-auto mb-5" id="servicios-fila-2">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+                <img src="./img/comunicaciones.png" alt="comunicaciones" width="180" height="160">
+
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Paga sin filas</h3>
+                    <p class="px-4">Fácil y seguro, paga a través de la app y evita la fila.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="./img/seo.png" alt="seo" width="180" height="160">
+
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Disfruta</h3>
+                    <p class="px-4">Ofrecemos la experiencia
+                        completa, te decimos
+                        cómo y en qué puedes
+                        utilizar los productos en
+                        tu lista de compra.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Listeat!</h4>
+                    <ul>
+                        <li><a href="#">Acerca de</a></li>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                        <li><a href="#">Suscríbete al newsletter</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Ayuda</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Beneficios</a></li>
+                        <li><a href="#">Cómo funciona</a></li>
+                        <li><a href="#">Nuestra Historia</a></li>
+                        <li><a href="#">Alianzas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Sitemap</h4>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Cómo funciona</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Listas y recetas</a></li>
+                        <li><a href="#">Descarga la app</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>¡Síguenos!</h4>
+                    <div class="social-links">
+                        <img src="./img/insta.png" alt="instagram">
+                        <img src="./img/whats.png" alt="whatsapp">
+                        <img src="./img/face.png" alt="facebook">
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
+<!-- Carrusel <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://images.unsplash.com/photo-1653151799399-0c2a8eb99c57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" class="d-block w-100 m-auto" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1653151583562-bebb7820cdb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" class="d-block w-100 m-auto" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1655475368498-ac10a3f4f0f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" class="d-block w-100 m-auto" alt="">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>-->
